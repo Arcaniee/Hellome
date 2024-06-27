@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: goldenrod;
+        }
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgb(5, 67, 32);
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+        #messege-el{
+font-style: italic;
+        }
+        button{
+            background-color: black;
+            color: white;
+            border-radius: inherit;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BlackJack game</h1>
+    <p id="message-el">Wanna play a round?</p>
+    <p id="cards-el">Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button onclick="startgame()">Start Game</button><br><br>
+    <button onclick="newcard()">New Card</button>
+    <p id="player-el"></p>
+    <script src="C.js"></script>
+</body>
+</html>
